@@ -21,7 +21,7 @@ github_username: fuwilliam
 additional_links:
 - title: PDF resume
   icon: fas fa-file-pdf
-  url: https://fuwilliam.github.io/
+  url: https://fuwilliam.github.io/pdfs/resumetest.pdf/
 
 # About Section
 # about_title: About Me
@@ -133,7 +133,6 @@ content:
 
       - layout: left
         title: DLL Group
-        border: weak
         link: dllgroup.com
         # link_text: boringcompany.com
         sub_title: BI Analyst I
