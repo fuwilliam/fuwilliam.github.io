@@ -9,7 +9,6 @@ version: 2
 name: William Fu
 title: Analytics Engineer
 email: williamfuu@gmail.com
-#website: fuwilliam.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -21,7 +20,7 @@ github_username: fuwilliam
 additional_links:
 - title: PDF resume
   icon: fas fa-file-pdf
-  url: https://fuwilliam.github.io/pdfs/resumetest.pdf/
+  url: https://fuwilliam.github.io/pdfs/resumetest.pdf
 
 # About Section
 # about_title: About Me
@@ -57,9 +56,9 @@ content:
 
           A list of hip-hop / rap artists are compiled with certain criteria from the <mark>Spotify API</mark>.
           Through a web app, users are prompted to choose between two artists in a head-to-head matchup. 
-          With the matchup results, <mark>Airflow</mark> then orchestrates loading the data to <mark>BigQuery</mark>, 
-          followed by the transformation and documentation via <mark>dbt</mark>, which in turn 
-          enables the analysis of metrics such as rapper win rate in a <mark>Power BI</mark> dashboard.
+          With the matchup results, <mark>Airflow</mark> orchestrates the extract & load to <mark>BigQuery</mark>, 
+          followed by the transformation and documentation via <mark>dbt</mark>. After the data is transformed, 
+          metrics such as win rate per rapper are analyzed in a <mark>Power BI</mark> dashboard.
 
           Overall, building this project has helped me bridge the gap between my BI centered background 
           and the skillset of the modern analytics engineer, while hopefully settling some music related debates.
@@ -71,7 +70,6 @@ content:
         title: Nubank
         border: weak
         link: nubank.com.br
-        # link_text: boringcompany.com
         sub_title: Analytics Engineer
         caption: 07/2021 - 04/2022
         description: | # this will include new lines to allow paragraphs
@@ -164,14 +162,14 @@ content:
   - title: Miscellaneous
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - Proudly owned by [two standard issue cats](https://imgur.com/a/V8NTC9r) - see [/r/StandardIssueCat](reddit.com/r/StandardIssueCat);
+      - Proudly owned by [two standard issue cats](https://imgur.com/a/V8NTC9r) - see [/r/StandardIssueCat](https://reddit.com/r/StandardIssueCat);
       - Mostly [listen to hip hop](https://open.spotify.com/playlist/6Lwab4nJQ8DpNm7LK8SVdP?si=806aada265b94e42) (hence the battle-rap project);
       - [Mechanical keyboard](https://i.imgur.com/lo8eQaa.jpg) enthusiast (also tech gadgets in general);
       - [Maxed](https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal?user1=Ekali) on Old School Runescape. 
 
 # Footer
-footer_show_references: false
-# references_title: References on request (Override references text)
+footer_show_references: true
+references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
