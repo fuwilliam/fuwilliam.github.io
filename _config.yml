@@ -20,24 +20,25 @@ github_username: fuwilliam
 # Additional icon links
 additional_links:
 - title: PDF version
-  icon: fab fa-twitter
+  icon: fab fa-file-pdf
   url: https://fuwilliam.github.io/
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile_.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hey! I'm William (but I usually go by Fu) and I have about 5 years of experience working with data, more recently focusing in analytics engineering.
+  Hey! I'm William (but I usually go by my last name) and I have about 5 years of experience working with data, more recently focusing in analytics engineering.
   
-  I started off as the Excel guy, began delivering dashboards with various data viz tools, and then moved on to building ETL pipelines and delivering data models. With this baggage, I've been shifting towards learning SWE skills and best practices to become a better fit and keep up with the rapidly evolving fields of analytics and data engineering. 
+  I started my career as an Excel guy, began delivering dashboards with various data viz tools, and then moved on to building ETL pipelines and delivering data models. With this baggage, I've been shifting towards learning SWE skills and best practices to become a better fit and keep up with the rapidly evolving fields of analytics and data engineering. 
 
   Overall, I find enjoyment in wrangling data into assets that facilitate access to reliable, actionable information.  
+
 
   I'm pretty confident with:   <mark>SQL</mark>, <mark>Python</mark>, <mark>Power BI/Tableau/Qlik</mark>, <mark>Data Modeling</mark>
 
   I'm fairly comfortable with:  <mark>Airflow</mark>, <mark>dbt</mark>, <mark>BigQuery/Athena</mark>, <mark>git</mark>
 
-  I know the basics of:   <mark>Spark</mark>, <mark>Scala</mark>
+  I know the basics of:   <mark>Spark</mark>, <mark>Scala</mark>, <mark>Docker</mark>
 
 content:
   - title: Projects # Title for the section
@@ -45,19 +46,25 @@ content:
     content:
       - layout: top-middle
         title: Battle Rap
-        link: github.com/fuwilliam/battle-rap
-        # link_text: Project Website
+        link: fuwilliam.github.io/battle-rap
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  fuwilliam/battle-rap
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: github.com/fuwilliam/battle-rap
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          A project built to answer the age-old question: who is the best rapper?
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          This project was conceived through a combination of my fandom of hip-hop and my desire to
+          learn and practice software and data engineering skills.
+
+          A list of hip-hop / rap artists are compiled with certain criteria from the Spotify API.
+          Through a web app, users are prompted to choose between two artists in a head-to-head matchup. 
+          With the matchup results, Airflow then orchestrates loading the data to BigQuery, 
+          followed by the transformation and documentation via dbt, which in turn 
+          enables the analysis of metrics such as rapper win rate in a Power BI dashboard.
+
+          Overall, building this project has helped me bridge the gap between my BI centered background 
+          and the skillset of the modern analytics engineer, while hopefully settling some music related debates.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -67,25 +74,67 @@ content:
         link: nubank.com.br
         # link_text: boringcompany.com
         sub_title: Analytics Engineer
-        caption: July 2021 - Apr 2022
+        caption: 07/2021 - 04/2022
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam posuere
+            diam non vehicula ultricies. Pellentesque sed lorem eget libero vehicula
+            gravida;
+
+            - Donec risus lacus, facilisis ac augue nec, viverra scelerisque leo. Donec
+            vel feugiat diam. Aliquam dignissim maximus erat sed placerat;
+
+            - Proin iaculis ex vitae lacinia accumsan. Sed vel nisi dignissim, dapibus
+            massa eget, fermentum nibh. Donec enim risus, tempor nec turpis in,
+            feugiat molestie sapien;
+
+            - Nulla eget pharetra mauris. Maecenas tincidunt accumsan lacus, a
+            suscipit erat lacinia at. Morbi feugiat posuere hendrerit. Donec quis lacus
+            sed enim eleifend fringilla.
+
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        title: Sicredi
+        link: https://www.sicredi.com.br/site/home-en/
+        link_text: sicredi.com.br
+        sub_title: Data Analyst II
+        caption: 04/2020 - 07/2021
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+
+            - Worked in the migration of over 20 dashboards from Tableau and AWS
+            Quicksight to Power BI, revamping data modeling / business metrics,
+            and ensuring a smoother transition between tools;
+
+            - Continuously supported the data analyst chapter with performance
+            tuning in SQL queries, resulting in direct savings in AWS Athena;
+
+            - Supported development of datasets by migrating business users'
+            SQL queries into Spark Scala code;
+
+            - Created a Power BI style guide, with best practices in development &
+            data visualization and publishing a standardized report theme
+            (color palette, company branding, fonts).
+
       - layout: left
         title: Portocred
         link: portocred.com.br
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: BI Analyst II
+        caption: 08/2019 - 04/2020
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+
+            - Developed ETL pipeline for Salesforce Marketing Cloud data for CRM data analysis. 
+            Implemented version control and automation of SSIS packages through BIML scripting;
+
+            - Built CRM campaign performance dashboards in Power BI, creating cost
+            effectiveness, conversion rate, NPS, amongst other KPIs;
+
+            - Performed and enabled deep-dive analysis over CRM campaign
+            performance, allowing for more efficient marketing efforts. Insights
+            contributed to a 30% increase in click conversion rate YoY;
+
+            - Implemented and communicated various best practices regarding query
+            performance, data types and naming schemes within team’s SQL Server
+            data warehouse.
+
       - layout: left
         title: DLL Group
         link: dllgroup.com
@@ -93,24 +142,30 @@ content:
         sub_title: BI Analyst I
         caption: 01/2018 – 08/2019
         description: | # this will include new lines to allow paragraphs
-            • Main reference in <bold>Qlik Sense</bold> development within the company - built
+            • Main reference in Qlik Sense development within the company - built
             Brazil’s KPI dashboard, which was popularized globally. Usage of
             advanced Set Analysis and Qlik scripting;
+
             • Created and conducted Qlik Sense training sessions for internal users;
+
+            • Development and maintenance of SSIS pipelines, delivering key tables
+            used for credit risk management to the data warehouse;
+
             • Member on the winning team of a global innovation competition.
             Created and presented a pitch to the company’s executive board.
             Awarded with EUR 125k to implement the idea.
+
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         sub_title: Federal University of Rio Grande do Sul (UFRGS)
-        description: Industrial Engineering (BSc) 
+        description: Industrial Engineering (B.Sc.)
       - layout: left
         sub_title: University of Wisconsin-Madison
-        description: Industrial Engineering (1 yr. exchange program)
+        description: Industrial Engineering (Exchange program)
 
-  - title: Fun facts about William
+  - title: Miscellaneous
     layout: text
     content: | # this will include new lines to allow paragraphs
       - Owned by [two standard issue cats](https://imgur.com/a/V8NTC9r);
