@@ -26,14 +26,14 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile_.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hey! I'm William (but I usually go by my last name) and I have about 5 years of experience working with data, more recently focusing in analytics engineering. I find enjoyment in wrangling data into assets that facilitate access to reliable, actionable information!
+  Hey! I'm William (but I usually go by my last name) and I have about 5 years of experience working with data, more recently focusing in analytics engineering. I find enjoyment in interpreting and wrangling data into assets that facilitate access to reliable, actionable information!
   
   I started my career as an Excel guy, began constructing dashboards with various data viz tools, and then moved on to building ETL pipelines and delivering data models. With this baggage, I've been shifting towards learning SWE skills and best practices to keep up and become a better fit for the rapidly evolving fields of analytics and data engineering. 
 
 
-  I'm pretty confident with:   <mark>SQL</mark>, <mark>Python</mark>, <mark>Power BI/Tableau/Qlik</mark>, <mark>Data Modeling</mark>
+  I'm pretty confident with:   <mark>SQL</mark>, <mark>Python</mark>, <mark>Power BI</mark>, <mark>Data Modeling</mark>
 
-  I'm fairly comfortable with:  <mark>Airflow</mark>, <mark>dbt</mark>, <mark>BigQuery/Athena</mark>, <mark>git</mark>
+  I'm fairly comfortable with:  <mark>Airflow</mark>, <mark>dbt</mark>, <mark>BigQuery/Athena</mark>, <mark>git</mark>, <mark>Tableau</mark>
 
   I know the basics of:   <mark>Spark</mark>, <mark>Scala</mark>, <mark>Docker</mark>
 
@@ -55,7 +55,7 @@ content:
           learn and practice software and data engineering skills.
 
           A list of hip-hop / rap artists are compiled with certain criteria from the <mark>Spotify API</mark>.
-          Through a web app, users are prompted to choose between two artists in a head-to-head matchup. 
+          Through a <mark>Flask</mark> web app, users are prompted to choose between two artists in a head-to-head matchup. 
           With the matchup results, <mark>Airflow</mark> orchestrates the extract & load to <mark>BigQuery</mark>, 
           followed by the transformation and documentation via <mark>dbt</mark>. After the data is transformed, 
           metrics such as win rate per rapper are analyzed in a <mark>Power BI</mark> dashboard.
@@ -70,18 +70,23 @@ content:
         title: Nubank
         border: weak
         link: nubank.com.br
-        sub_title: Analytics Engineer
+        sub_title: Senior Analytics Engineer
         caption: 07/2021 - 04/2022
         description: | # this will include new lines to allow paragraphs
-            - Delivered xxx core datasets related to ...;
+            - Supported business analysts in mapping/building datasets with 
+              Spark and Scala, ensuring proper documentation and unit testing;
 
-            - Mapped existing ecosystem of collections datasets and its dependencies;
+            - Mapped existing ecosystem of collections datasets and its dependencies, 
+              leading to the deprecation of over 30 redundant/inconsistent datasets, 
+              reducing costs and load on pipeline;
 
-            - Supported business analysts (...) understanding sources blablabla
+            - Worked on delivery of core datasets containing source of truth accounting
+              data used in various reconciliation, collections and finance processes.
+              Learned about Spark UI and performance optimization to reduce
+              lead time and ensure data freshness;
 
-            - Built multiple bespoke SQL tests ...;
-
-            - Implemented unit testing xxx.
+            - Deployed multiple bespoke SQL tests to monitor and warn users of potential
+              upstream anomalies or data quality issues in key datasets.
 
       - layout: left
         title: Sicredi
@@ -92,19 +97,19 @@ content:
         caption: 04/2020 - 07/2021
         description: | # this will include new lines to allow paragraphs
 
-            - Worked in the migration of over 20 dashboards from Tableau and AWS
-            Quicksight to Power BI, revamping data modeling / business metrics,
-            and ensuring a smoother transition between tools;
+            - Worked in the migration of over 20 dashboards from Tableau and
+              Quicksight to Power BI, revamping data modeling / business metrics,
+              and ensuring a smoother transition between tools;
 
             - Continuously supported the data analyst chapter with performance
-            tuning in SQL queries, resulting in direct savings in AWS Athena;
+              tuning in SQL queries, resulting in direct savings in AWS Athena;
 
             - Supported development of datasets by migrating business users'
-            SQL queries into Spark Scala code;
+              SQL queries into Spark Scala code;
 
             - Created a Power BI style guide, with best practices in development &
-            data visualization and publishing a standardized report theme
-            (color palette, company branding, fonts).
+              data visualization and publishing a standardized report theme
+              (color palette, company branding, fonts).
 
       - layout: left
         title: Portocred
@@ -116,18 +121,17 @@ content:
         description: | # this will include new lines to allow paragraphs
 
             - Developed ETL pipeline for Salesforce Marketing Cloud data for CRM data analysis. 
-            Implemented version control and automation of SSIS packages through BIML scripting;
+              Implemented version control and automation of SSIS packages through BIML scripting;
 
             - Built CRM campaign performance dashboards in Power BI, creating cost
-            effectiveness, conversion rate, NPS, amongst other KPIs;
+              effectiveness, conversion rate, NPS, amongst other KPIs;
 
             - Performed and enabled deep-dive analysis over CRM campaign
-            performance, allowing for more efficient marketing efforts. Insights
-            contributed to a 30% increase in click conversion rate YoY;
+              performance, empowering marketing efforts. Insights
+              contributed to a 30% increase in click conversion rate YoY;
 
             - Implemented and communicated various best practices regarding query
-            performance, data types and naming schemes within team’s SQL Server
-            data warehouse.
+              performance and naming schemes within team’s SQL Server data warehouse.
 
       - layout: left
         title: DLL Group
@@ -136,7 +140,7 @@ content:
         sub_title: BI Analyst I
         caption: 01/2018 – 08/2019
         description: | # this will include new lines to allow paragraphs
-            - Main reference in Qlik Sense development within the company - built
+            - Became point of reference for Qlik Sense development - built
             Brazil’s KPI dashboard, which was popularized globally. Usage of
             advanced Set Analysis and Qlik scripting;
 
@@ -154,22 +158,22 @@ content:
     content:
       - layout: left
         sub_title: Federal University of Rio Grande do Sul (UFRGS)
-        description: Industrial Engineering (B.Sc.)
+        description: - Industrial Engineering (B.Sc.)
       - layout: left
         sub_title: University of Wisconsin-Madison
-        description: Industrial Engineering (Exchange program)
-
+        description:    Industrial Engineering (Exchange program)
+        
   - title: Miscellaneous
     layout: text
     content: | # this will include new lines to allow paragraphs
       - Proudly owned by [two standard issue cats](https://imgur.com/a/V8NTC9r) - see [/r/StandardIssueCat](https://reddit.com/r/StandardIssueCat);
       - Mostly [listen to hip hop](https://open.spotify.com/playlist/6Lwab4nJQ8DpNm7LK8SVdP?si=806aada265b94e42) (hence the battle-rap project);
-      - [Mechanical keyboard](https://i.imgur.com/lo8eQaa.jpg) enthusiast (also tech gadgets in general);
+      - [Mechanical keyboard](https://fuwilliam.github.io/images/keebs.jpg) enthusiast (also tech gadgets in general);
       - [Maxed](https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal?user1=Ekali) on Old School Runescape. 
 
 # Footer
 footer_show_references: true
-references_title: References on request (Override references text)
+references_title: template from https://github.com/sproogen/modern-resume-theme
 
 # Build settings
 remote_theme: sproogen/resume-theme
