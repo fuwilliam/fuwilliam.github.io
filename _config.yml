@@ -158,10 +158,10 @@ content:
     content:
       - layout: left
         sub_title: Federal University of Rio Grande do Sul (UFRGS)
-        description: - Industrial Engineering (B.Sc.)
+        description: Industrial Engineering (B.Sc.)
       - layout: left
         sub_title: University of Wisconsin-Madison
-        description:    Industrial Engineering (Exchange program)
+        description: Industrial Engineering (Exchange program)
         
   - title: Miscellaneous
     layout: text
