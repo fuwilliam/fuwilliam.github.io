@@ -64,7 +64,16 @@ content:
 
           Overall, building this project has helped me bridge the gap between my BI centered background 
           and the skillset of the modern analytics engineer (plus some web dev basics!), while hopefully settling some music related debates.
+
+          <p float="left">
+            <img src="images/demo.png" width="300" />
+            <img src="images/demo.png" width="100" /> 
+            <img src="https://i.scdn.co/image/ab6761610000e5eb1454debf3d21173c9051342b" width="100" />
+          </p>
+
           ![demo](images/demo.png) ![demo2](https://i.scdn.co/image/ab6761610000e5eb1454debf3d21173c9051342b)
+
+          
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
