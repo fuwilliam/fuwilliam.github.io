@@ -11,7 +11,7 @@ title: Analytics Engineer
 email: williamfuu@gmail.com
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 github_username: fuwilliam
@@ -24,7 +24,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile2.jpg
+about_profile_image: images/profile2.png
 about_content: | # this will include new lines to allow paragraphs
   Hey! I'm William (but I usually go by my last name) and I have about 5 years of experience working with data, more recently focusing in analytics engineering. I find enjoyment in interpreting and wrangling data into assets that facilitate access to reliable, actionable information!
   
@@ -64,7 +64,7 @@ content:
 
           Overall, building this project has helped me bridge the gap between my BI centered background 
           and the skillset of the modern analytics engineer (plus some web dev basics!), while hopefully settling some music related debates.
-
+          ![demo](images/demo.png) ![demo2](https://i.scdn.co/image/ab6761610000e5eb1454debf3d21173c9051342b)
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
