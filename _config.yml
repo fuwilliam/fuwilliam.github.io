@@ -33,7 +33,7 @@ about_content: | # this will include new lines to allow paragraphs
 
   I'm pretty confident with:   <mark>SQL</mark>, <mark>Python</mark>, <mark>Power BI</mark>, <mark>Data Modeling</mark>
 
-  I'm fairly comfortable with:  <mark>Airflow</mark>, <mark>dbt</mark>, <mark>BigQuery/Athena</mark>, <mark>git</mark>, <mark>Tableau</mark>
+  I'm fairly comfortable with:  <mark>Airflow</mark>, <mark>dbt</mark>, <mark>BigQuery</mark>, <mark>Athena</mark>, <mark>git</mark>, <mark>Tableau</mark>
 
   I know the basics of:   <mark>Spark</mark>, <mark>Scala</mark>, <mark>Docker</mark>
 
@@ -54,9 +54,9 @@ content:
           This project was conceived through a combination of my fandom of hip hop and my desire to
           learn and practice some software and data engineering skills.
 
-          A list of hip-hop / rap artists are compiled with certain criteria from the <mark>Spotify API</mark>
+          A list of hip hop / rap artists are compiled with certain criteria from the <mark>Spotify API</mark>
           and loaded to a <mark>Supabase</mark> database.
-          
+
           Through a <mark>Flask</mark> web app, users are prompted to choose between two artists in a head-to-head matchup. 
           With the matchup results, the data is extracted to <mark>GCS</mark> and loaded to <mark>BigQuery</mark>.
 
@@ -68,7 +68,7 @@ content:
 
           <p float="center">
             <img src="images/demo.png" width="560" />
-            <img src="images/architecture_zoom.png" width="560" /> 
+            <img src="images/architecture_zoom.png" width="550" /> 
           </p>
 
 
@@ -176,8 +176,8 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       - Proudly owned by [two standard issue cats](https://imgur.com/a/V8NTC9r) - see [/r/StandardIssueCat](https://reddit.com/r/StandardIssueCat);
-      - Mostly listen to hip hop and rap (hence the [battle-rap](https://github.com/fuwilliam/battle-rap) project);
-      - [Mechanical keyboard](https://fuwilliam.github.io/images/keebs.jpg) enthusiast (also tech gadgets in general);
+      - Mostly listen to hip hop and rap (hence the [battle rap](https://github.com/fuwilliam/battle-rap) project);
+      - [Mechanical keyboard](https://fuwilliam.github.io/images/keebs.jpg) enthusiast (and tech gadgets in general);
       - [Maxed](https://secure.runescape.com/m=hiscore_oldschool/hiscorepersonal?user1=Ekali) on Old School Runescape. 
 
 # Footer
