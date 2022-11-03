@@ -56,11 +56,12 @@ content:
 
           A list of hip-hop / rap artists are compiled with certain criteria from the <mark>Spotify API</mark>
           and loaded to a <mark>Supabase</mark> database.
+          
           Through a <mark>Flask</mark> web app, users are prompted to choose between two artists in a head-to-head matchup. 
           With the matchup results, the data is extracted to <mark>GCS</mark> and loaded to <mark>BigQuery</mark>.
+
           Staging and mart models are built and documented via <mark>dbt</mark>, then metrics are visualized 
-          in a <mark>Power BI</mark> dashboard
-          A local instance of <mark>Airflow</mark> orchestrates the ELT pipeline.
+          in a <mark>Power BI</mark> dashboard. A local instance of <mark>Airflow</mark> orchestrates the ELT pipeline.
 
           Overall, building this project has helped me bridge the gap between my BI centered background 
           and the skillset of the modern analytics engineer (plus some web dev basics!), while hopefully settling some music related debates.
