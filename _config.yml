@@ -51,8 +51,8 @@ content:
         quote: >
           A project built to answer the age-old question: who is the best rapper?
         description: | # this will include new lines to allow paragraphs
-          This project was conceived through a combination of my fandom of hip-hop and my desire to
-          learn and practice software and data engineering skills.
+          This project was conceived through a combination of my fandom of hip hop and my desire to
+          learn and practice some software and data engineering skills.
 
           A list of hip-hop / rap artists are compiled with certain criteria from the <mark>Spotify API</mark>
           and loaded to a <mark>Supabase</mark> database.
