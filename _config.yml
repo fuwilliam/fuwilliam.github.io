@@ -20,7 +20,7 @@ github_username: fuwilliam
 additional_links:
 - title: PDF resume
   icon: fas fa-file-pdf
-  url: https://fuwilliam.github.io/pdfs/resume.pdf
+  url: https://fuwilliam.github.io/pdfs/CV_WilliamFu_202211.pdf
 
 # About Section
 # about_title: About Me
@@ -68,7 +68,7 @@ content:
 
           <p float="center">
             <img src="images/demo.png" width="570" />
-            <img src="images/architecture_zoom.png" width="545" /> 
+            <img src="images/architecture_zoom.png" width="548" /> 
           </p>
 
 
