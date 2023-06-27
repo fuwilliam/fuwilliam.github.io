@@ -31,9 +31,9 @@ about_content: | # this will include new lines to allow paragraphs
   I started my career as an Excel guy, began constructing dashboards with various data viz tools, and then moved on to building ETL pipelines and delivering data models. With this baggage, I've been shifting towards learning SWE skills and best practices to keep up and become a better fit for the rapidly evolving fields of analytics and data engineering. 
 
 
-  I'm pretty confident with:   <mark>SQL</mark>, <mark>Python</mark>, <mark>Power BI</mark>, <mark>Data Modeling</mark>
+  I'm pretty confident with:   <mark>SQL</mark>, <mark>dbt</mark>, <mark>BigQuery</mark>, <mark>Power BI</mark>, <mark>Data Modeling</mark>
 
-  I'm fairly comfortable with:  <mark>Airflow</mark>, <mark>dbt</mark>, <mark>BigQuery</mark>, <mark>Athena</mark>, <mark>git</mark>, <mark>Tableau</mark>
+  I'm fairly comfortable with:  <mark>Airflow</mark>, <mark>Prefect</mark>, <mark>Airbyte</mark>, <mark>git</mark>, <mark>Tableau</mark>, <mark>Python</mark>
 
   I know the basics of:   <mark>Spark</mark>, <mark>Scala</mark>, <mark>Docker</mark>
 
