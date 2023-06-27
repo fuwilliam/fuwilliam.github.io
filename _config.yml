@@ -26,55 +26,37 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile2.png
 about_content: | # this will include new lines to allow paragraphs
-  Hey! I'm William (but I usually go by my last name) and I have about 5 years of experience working with data, more recently focusing in analytics engineering. I find enjoyment in interpreting and wrangling data into assets that facilitate access to reliable, actionable information!
+  Hey! I'm Fu and I have about 5 years of experience working with data, more recently focusing in analytics engineering. I find enjoyment in interpreting and wrangling data into assets that facilitate access to reliable, actionable information!
   
   I started my career as an Excel guy, began constructing dashboards with various data viz tools, and then moved on to building ETL pipelines and delivering data models. With this baggage, I've been shifting towards learning SWE skills and best practices to keep up and become a better fit for the rapidly evolving fields of analytics and data engineering. 
 
+  I'm pretty confident with:   <mark>SQL</mark>, <mark>dbt</mark>, <mark>BigQuery</mark>, <mark>Power BI</mark>, <mark>git</mark>
 
-  I'm pretty confident with:   <mark>SQL</mark>, <mark>dbt</mark>, <mark>BigQuery</mark>, <mark>Power BI</mark>, <mark>Data Modeling</mark>
-
-  I'm fairly comfortable with:  <mark>Airflow</mark>, <mark>Prefect</mark>, <mark>Airbyte</mark>, <mark>git</mark>, <mark>Tableau</mark>, <mark>Python</mark>
+  I'm fairly comfortable with:   <mark>Airbyte</mark>, <mark>Prefect</mark>, <mark>Airflow</mark>, <mark>Tableau</mark>, <mark>Python</mark>
 
   I know the basics of:   <mark>Spark</mark>, <mark>Scala</mark>, <mark>Docker</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Battle Rap
-        link: battlerap.app
-        additional_links:
-          - title:  fuwilliam/battle-rap
-            icon: fab fa-github
-            url: github.com/fuwilliam/battle-rap
-        quote: >
-          A project built to answer the age-old question: who is the best rapper?
-        description: | # this will include new lines to allow paragraphs
-          This project was conceived through a combination of my fandom of hip hop and my desire to
-          learn and practice some software and data engineering skills.
-
-          A list of hip hop / rap artists are compiled with certain criteria from the <mark>Spotify API</mark>
-          and loaded to a <mark>Supabase</mark> database.
-
-          Through a <mark>Flask</mark> web app, users are prompted to choose between two artists in a head-to-head matchup. 
-          With the matchup results, the data is extracted to <mark>GCS</mark> and loaded to <mark>BigQuery</mark>.
-
-          Staging and mart models are built and documented via <mark>dbt</mark>, then metrics are visualized 
-          in a <mark>Power BI</mark> dashboard. A local instance of <mark>Airflow</mark> orchestrates the ELT pipeline.
-
-          Overall, building this project has helped me bridge the gap between my BI centered background 
-          and the skillset of the modern analytics engineer (plus some web dev basics!), while hopefully settling some music related debates.
-
-          <p float="center">
-            <img src="images/demo.png" width="570" />
-            <img src="images/architecture_zoom.png" width="548" /> 
-          </p>
-
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+
+      - layout: left
+        title: Toggl
+        border: weak
+        link: toggl.com
+        sub_title: Analytics Engineer
+        caption: 01/2023 - 06/2023
+        description: | # this will include new lines to allow paragraphs
+            - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.;
+
+            - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat;
+
+            - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur;
+
+            - Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
       - layout: left
         title: Nubank
         border: weak
@@ -161,6 +143,39 @@ content:
             - Member on the winning team of a global innovation competition.
             Created and presented a pitch to the company’s executive board.
             Awarded with EUR 125k to implement the idea.
+
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Battle Rap
+        link: battlerap.app
+        additional_links:
+          - title:  fuwilliam/battle-rap
+            icon: fab fa-github
+            url: github.com/fuwilliam/battle-rap
+        quote: >
+          A project built to answer the age-old question: who is the best rapper?
+        description: | # this will include new lines to allow paragraphs
+          This project was conceived through a combination of my fandom of hip hop and my desire to
+          learn and practice some software and data engineering skills.
+
+          A list of hip hop / rap artists are compiled with certain criteria from the <mark>Spotify API</mark>
+          and loaded to a <mark>Supabase</mark> database.
+
+          Through a <mark>Flask</mark> web app, users are prompted to choose between two artists in a head-to-head matchup. 
+          With the matchup results, the data is extracted to <mark>GCS</mark> and loaded to <mark>BigQuery</mark>.
+
+          Staging and mart models are built and documented via <mark>dbt</mark>, then metrics are visualized 
+          in a <mark>Power BI</mark> dashboard. A local instance of <mark>Airflow</mark> orchestrates the ELT pipeline.
+
+          Overall, building this project has helped me bridge the gap between my BI centered background 
+          and the skillset of the modern analytics engineer (plus some web dev basics!), while hopefully settling some music related debates.
+
+          <p float="center">
+            <img src="images/demo.png" width="570" />
+            <img src="images/architecture_zoom.png" width="548" /> 
+          </p>
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
