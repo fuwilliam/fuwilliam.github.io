@@ -20,13 +20,13 @@ github_username: fuwilliam
 additional_links:
 - title: PDF resume
   icon: fas fa-file-pdf
-  url: https://fuwilliam.github.io/pdfs/CV_WilliamFu_202211.pdf
+  url: https://fuwilliam.github.io/pdfs/CV_WilliamFu_2024.pdf
 
 # About Section
 # about_title: About Me
 about_profile_image: images/profile2.png
 about_content: | # this will include new lines to allow paragraphs
-  Hey! I'm Fu and I have about 5 years of experience working with data, more recently focusing in analytics engineering. I find enjoyment in interpreting and wrangling data into assets that facilitate access to reliable, actionable information!
+  Hey! I'm Fu and I have about 7 years of experience working with data, more recently focusing in analytics engineering. I find enjoyment in interpreting and wrangling data into assets that facilitate access to reliable, actionable information!
   
   I started my career as an Excel guy, began constructing dashboards with various data viz tools, and then moved on to building ETL pipelines and delivering data models. With this baggage, I've been shifting towards learning SWE skills and best practices to keep up and become a better fit for the rapidly evolving fields of analytics and data engineering. 
 
@@ -47,22 +47,27 @@ content:
         border: weak
         link: toggl.com
         sub_title: Analytics Engineer
-        caption: 01/2023 - 06/2023
+        caption: 01/2023 - 05/2024
         description: | # this will include new lines to allow paragraphs
-            - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.;
+            - Collaborated in Stripe migration project by rebuilding over 20 dbt models to consolidate
+              legacy and new data in BigQuery, delivering crucial revenue related metrics;
 
-            - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat;
+            - Reorganized scheduling dependencies of ELT pipeline (Airbyte + Prefect), 
+              reducing lead time by 40% to address problems with stale data;
 
-            - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur;
+            - Implemented extensive dbt testing suite for MRR data models, building trust with
+              stakeholders by alerting and addressing anomalies caused by corner cases and upstream
+              quality issues;
 
-            - Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            - Supported business teams with self-service Looker dashboards and Hex notebooks,
+              addressing recurring ad-hoc analytics needs.
 
       - layout: left
         title: Nubank
         border: weak
         link: nubank.com.br
         sub_title: Senior Analytics Engineer
-        caption: 07/2021 - 04/2022
+        caption: 07/2021 - 11/2022
         description: | # this will include new lines to allow paragraphs
             - Supported business analysts in mapping/building datasets with 
               Spark and Scala, ensuring proper documentation and unit testing;
