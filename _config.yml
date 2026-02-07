@@ -49,7 +49,7 @@ content:
         sub_title: Senior Data Engineer
         caption: 01/2025 - Current
         description: | # this will include new lines to allow paragraphs
-            - Developed data transformation pipelines using <b>Pulumi</b> (IaC), orchestrating BigQuery, Workflows, and
+            - Developed data transformation pipelines using Pulumi (IaC), orchestrating BigQuery, Workflows, and
             Eventarc. Used Jinja templating to refactor legacy YAML into modular configs, ensuring DRY code;
 
             - Spearheaded the creation and adoption of a comprehensive SQL Style Guide as part of the DE chapter,
@@ -59,7 +59,7 @@ content:
             Domo pipelines and dashboards into a reliable replacement in GCP, resolving service gaps;
 
             - Accelerated team growth by mentoring engineers across Brazil and Canada and conducting 30+ technical
-            interviews for DE/DA roles. Validated expertise by completing the Validated expertise by completing the <a href="https://fuwilliam.github.io/pdfs/ProfessionalDataEngineer20251115-31-p5lbwo.pdf"><b>GCP</b> Professional Data Engineer</a> certification.
+            interviews for DE/DA roles. Validated expertise by completing the GCP Professional Data Engineer certification.
 
       - layout: left
         title: Toggl
