@@ -173,7 +173,7 @@ content:
     content:
       - layout: top-middle
         title: Battle Rap
-        link: battlerap.app
+        link: battle-rap.vercel.app
         additional_links:
           - title:  fuwilliam/battle-rap
             icon: fab fa-github
